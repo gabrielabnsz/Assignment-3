@@ -1,0 +1,122 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 9999;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+  
+.menu ul li {
+    margin-right: 15px;
+}
+  
+.menu ul li:last-child {
+    margin-right: 0;
+}
+  
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-image {
+    max-width: 250px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.header-image:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+header {
+    background-color: rgba(253, 252, 252, 0.4);
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.introduction {
+    padding-top: 70px;
+}
+
+.nutrition {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.recipe {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: rgba(253, 252, 252, 0.4);
+    margin-bottom: 100px;
+}
+
+.pastel {
+    max-width: 450px;   
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.pastel:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.image-pastel {
+    margin-top: 100px;
+    background-color: rgba(253, 252, 252, 0.4);
+}
+
+.belem-tower {
+    max-width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.logo-pasteis {
+    max-width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 40px;
+}
+
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ddaca1, #e4e0e0);
+}
+
+p {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 120px;
+}
